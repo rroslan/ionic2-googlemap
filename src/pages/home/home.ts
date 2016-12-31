@@ -15,7 +15,7 @@ export class HomePage {
 
   map: any;
   mapInitialised: boolean = false;
-  apiKey: any='AIzaSyBl01rloM7pTUxZy_96hJGv4cCmqRosuC4';
+  apiKey: any='your_api_key';
 
   constructor(public nav: NavController, public connectivityService: ConnectivityService) {
     this.loadGoogleMaps();
